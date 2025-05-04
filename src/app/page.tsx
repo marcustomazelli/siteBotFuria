@@ -1,4 +1,4 @@
-import { Bot, Github, Linkedin, MessageSquare, Monitor, Rocket } from 'lucide-react'
+import { Bot, Github, Linkedin, MessageSquare, Monitor, Rocket, Newspaper } from 'lucide-react'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Image from 'next/image'
@@ -67,19 +67,19 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-12 text-center text-primary">Funcionalidades</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-dark-100 p-6 rounded-xl">
-              <MessageSquare className="w-12 h-12 text-primary mb-4" />
-              <h3 className="text-xl font-semibold mb-2 text-primary">/hello</h3>
-              <p className="text-gray-300">Receba uma saudação personalizada do Furico</p>
+              <Newspaper className="w-12 h-12 text-primary mb-4" />
+              <h3 className="text-xl font-semibold mb-2 text-primary">news</h3>
+              <p className="text-gray-300">Receba as ultimas notícias do mundo do esports diretamente do Furico</p>
             </div>
             <div className="bg-dark-100 p-6 rounded-xl">
               <Monitor className="w-12 h-12 text-primary mb-4" />
-              <h3 className="text-xl font-semibold mb-2 text-primary">/proxima_partida</h3>
+              <h3 className="text-xl font-semibold mb-2 text-primary">próxima partida</h3>
               <p className="text-gray-300">Veja informações sobre a próxima partida da FURIA</p>
             </div>
             <div className="bg-dark-100 p-6 rounded-xl">
               <Rocket className="w-12 h-12 text-primary mb-4" />
-              <h3 className="text-xl font-semibold mb-2 text-primary">/monitorar_partida</h3>
-              <p className="text-gray-300">Receba atualizações em tempo real durante as partidas</p>
+              <h3 className="text-xl font-semibold mb-2 text-primary">estatísticas</h3>
+              <p className="text-gray-300">Receba estatisticas atualizadas sobre os jogadores da FURIA</p>
             </div>
           </div>
         </div>
@@ -102,14 +102,7 @@ export default function Home() {
                 <span className="flex-shrink-0 w-8 h-8 bg-primary text-dark rounded-full flex items-center justify-center font-bold">2</span>
                 <div>
                   <h3 className="font-semibold mb-2 text-gray-100">Inicie a Conversa</h3>
-                  <p className="text-gray-300">Clique em "Start" ou envie /start para iniciar a interação</p>
-                </div>
-              </li>
-              <li className="flex gap-4">
-                <span className="flex-shrink-0 w-8 h-8 bg-primary text-dark rounded-full flex items-center justify-center font-bold">3</span>
-                <div>
-                  <h3 className="font-semibold mb-2 text-gray-100">Explore os Comandos</h3>
-                  <p className="text-gray-300">Use os comandos disponíveis para obter informações sobre a FURIA</p>
+                  <p className="text-gray-300">Clique em "Start" e interaja com o Furico, pergunte sobre as ultimas notícias, próxima partida, estatísticas. Furico também entra na torcida junto com você.</p>
                 </div>
               </li>
             </ol>
